@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include generic_queueing_system *.css
+recursive-include generic_queueing_system *.csv
+recursive-include generic_queueing_system *.html
+recursive-include generic_queueing_system *.ico
+recursive-include generic_queueing_system *.js
+recursive-include generic_queueing_system *.json
+recursive-include generic_queueing_system *.md
+recursive-include generic_queueing_system *.png
+recursive-include generic_queueing_system *.py
+recursive-include generic_queueing_system *.svg
+recursive-include generic_queueing_system *.txt
+recursive-exclude generic_queueing_system *.pyc
