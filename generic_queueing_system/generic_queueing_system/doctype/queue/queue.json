@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-08 14:02:28.693605",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "queue_number",
+  "customer_name",
+  "queueing_system",
+  "column_break_x1oh5",
+  "queue_status",
+  "date_queued",
+  "fetched_queue_counter"
+ ],
+ "fields": [
+  {
+   "fieldname": "queue_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Queue Prefix",
+   "reqd": 1
+  },
+  {
+   "fieldname": "queueing_system",
+   "fieldtype": "Link",
+   "label": "Queueing System",
+   "options": "Queueing System",
+   "reqd": 1
+  },
+  {
+   "fieldname": "queue_status",
+   "fieldtype": "Select",
+   "label": "Queue Status",
+   "options": "Queue\nServe\nClosed\nMissed\nCancelled",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_x1oh5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fetched_queue_counter",
+   "fieldtype": "Int",
+   "label": "Queue Counter",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date_queued",
+   "fieldtype": "Date",
+   "label": "Date Queued",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-15 17:22:04.827167",
+ "modified_by": "Administrator",
+ "module": "Generic Queueing System",
+ "name": "Queue",
+ "naming_rule": "By script",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "fetched_queue_counter",
+ "sort_order": "ASC",
+ "states": []
+}

@@ -1,0 +1,156 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-25 13:30:42.301229",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "monday",
+  "column_break_e2mwo",
+  "tuesday",
+  "column_break_dtuyi",
+  "wednesday",
+  "column_break_em2zz",
+  "thursday",
+  "column_break_ul9ke",
+  "friday",
+  "column_break_iyrs7",
+  "saturday",
+  "column_break_knats",
+  "sunday",
+  "section_break_pbgj0",
+  "holidays",
+  "section_break_kdwbv",
+  "from_time",
+  "column_break_yrwum",
+  "to_time",
+  "section_break_wsmbh",
+  "disp_time"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "monday",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Mon"
+  },
+  {
+   "fieldname": "column_break_e2mwo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "tuesday",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Tues"
+  },
+  {
+   "fieldname": "column_break_dtuyi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "wednesday",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Wed"
+  },
+  {
+   "fieldname": "column_break_em2zz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "thursday",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Thurs"
+  },
+  {
+   "fieldname": "column_break_ul9ke",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "friday",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Fri"
+  },
+  {
+   "fieldname": "column_break_iyrs7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "saturday",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Sat"
+  },
+  {
+   "fieldname": "column_break_knats",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "sunday",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Sun"
+  },
+  {
+   "fieldname": "section_break_pbgj0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "holidays",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Holidays"
+  },
+  {
+   "fieldname": "section_break_kdwbv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "from_time",
+   "fieldtype": "Time",
+   "label": "From Time"
+  },
+  {
+   "fieldname": "column_break_yrwum",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_time",
+   "fieldtype": "Time",
+   "label": "To Time"
+  },
+  {
+   "fieldname": "section_break_wsmbh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "disp_time",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-08 13:54:04.342516",
+ "modified_by": "Administrator",
+ "module": "Generic Queueing System",
+ "name": "Queue Schedule",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
